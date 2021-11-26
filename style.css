@@ -1,9 +1,12 @@
 .searchbar  {
     background-color: rgb(168, 105, 226);
-    display: block;
+    width: 100%;
     text-align: center;
     height: 40px;
     margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 }
 .searchbar i,p {
     line-height: 40px;
