@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asm4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="searchbar row d-flex justify-content-center" id="search">
+            <i class="fas fa-search align-self-center"></i>
+            <p class="align-self-center">My news</p>
+        </div>
+    </div>
+    <div class="model-overlay"></div>
+    <div id="model">
+        <div class="keys d-flex flex-column flex-md-row justify-content-md-between">
+            <label for="keywords">Keywords</label>
+            <input type="text" name="keywords" id="keywords" required>
+            <button id="submit" type="submit" class="btn-primary">Search</button>
+        </div>
+        <div class="fillter flex-column flex-md-row justify-content-md-between">
+            <label for="from">Published from:</label>
+            <input type="text" id="timeFrom" placeholder="yyyy-mm-dd">
+            <br>
+            <label for="from">Published to:</label>
+            <input type="text" id="timeTo" placeholder="yyyy-mm-dd">
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./javascrip.js"></script>
+</body>
+
+</html>
