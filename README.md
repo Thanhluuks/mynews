@@ -5,3 +5,4 @@ my pet project with 2 task:
 
 Using:
 - Jquery, bootraps and Getnews API
+# live: https://thanhluuks.github.io/mynews/
